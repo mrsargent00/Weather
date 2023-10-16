@@ -27,7 +27,7 @@ The user will then see the current day with the information for that current day
 After the search button is clicked the weather will be displayed in the right top box with the next five days displayed below for the selected city.    
 
 ## Deployed application
-
+<img src="/assets/images/Weather Forecast.webm">
 
 
 ## Installation
