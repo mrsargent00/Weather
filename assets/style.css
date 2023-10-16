@@ -1,17 +1,80 @@
-header{
-    background-color: purple;
-    font-size: 50px;
+#header {
+  text-align: center;
+  background-color: #252525;
+  color: white;
+  font-size: 60px;
+  width: 100%;
 }
 
-
-.flex{
-    display: flex;
-    background-color: aqua;
+* {
+  box-sizing: border-box;
 }
 
-.flex > div {
-    background-color: aquamarine;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+.container {
+  border: 3px solid grey;
+  padding: 10px 30px;
+  background-color: #D6D6D6;
+}
+
+body {
+  background-color: #D6D6D6;
+}
+
+li {
+  color: #1A01FA;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+#infoCard {
+  text-align: center;
+  font-size: medium;
+}
+
+#searchCol {
+  background-color: #F5F5F5;
+}
+
+#infoCardHeader {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#forcastCard {
+  height: 230px;
+  width: 150px;
+  margin: 10px;
+  color: white;
+  background-color: #0084FF;
+}
+
+h5 {
+  padding-left: 5px;
+  font-size: 40px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: #0026FF;
+}
+
+.photo1 {
+  width: 50px;
+  height: 50px;
+}
+
+.card-title1,
+.card-title2,
+.card-title3,
+.card-title4,
+.card-title5 {
+  font-size: 20px;
+}
+
+.date {
+  font-size: 40px;
 }
