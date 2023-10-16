@@ -27,8 +27,11 @@ The user will then see the current day with the information for that current day
 After the search button is clicked the weather will be displayed in the right top box with the next five days displayed below for the selected city.    
 
 ## Deployed application
-<img src="/assets/images/Weather Forecast.webm">
+<img src="assets/images/Screenshot 2023-10-16 195437.png>
 
+-deployed application: https://mrsargent00.github.io/weather/
+
+-repo: https://github.com/mrsargent00/weather
 
 ## Installation
 
