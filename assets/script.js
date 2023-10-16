@@ -2,7 +2,7 @@ var APIKey = "9e0c22d6bb74b53c73796b906b056dde";
 
 
 $(document).ready(function() {
-  const date = moment().format("MM DD YYYY");
+  const date = moment().format(" MM/DD/YYYY");
   $(".date").text(date);
 });
 

@@ -1,80 +1,77 @@
 #header {
-  text-align: center;
-  background-color: #252525;
-  color: white;
-  font-size: 60px;
-  width: 100%;
-}
+    text-align: center;
+    background: linear-gradient( to right, purple, blue);
+    color: white;
+    position: relative;
+    font-size: 60px;
+    width: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    border: 3px solid grey;
+    padding: 10px 30px;
+    background-color: rgb(214, 214, 214);
+  }
+  
+  body {
+    background-color: rgb(214, 214, 214);
+  }
+  
 
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  border: 3px solid grey;
-  padding: 10px 30px;
-  background-color: #D6D6D6;
-}
-
-body {
-  background-color: #D6D6D6;
-}
-
-li {
-  color: #1A01FA;
-  font-size: 20px;
-  font-weight: bold;
-  font-variant: small-caps;
-}
-
-#infoCard {
-  text-align: center;
-  font-size: medium;
-}
-
-#searchCol {
-  background-color: #F5F5F5;
-}
-
-#infoCardHeader {
-  font-weight: bolder;
-  font-size: 40px;
-}
-
-#forcastCard {
-  height: 230px;
-  width: 150px;
-  margin: 10px;
-  color: white;
-  background-color: #0084FF;
-}
-
-h5 {
-  padding-left: 5px;
-  font-size: 40px;
-}
-
-.btn {
-  margin-bottom: 10px;
-}
-
-.icon {
-  color: #0026FF;
-}
-
-.photo1 {
-  width: 50px;
-  height: 50px;
-}
-
-.card-title1,
-.card-title2,
-.card-title3,
-.card-title4,
-.card-title5 {
-  font-size: 20px;
-}
-
-.date {
-  font-size: 40px;
-}
+  
+  #infoCard {
+    text-align: center;
+    font-size: medium;
+  }
+  
+  #searchCol {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  #infoCardHeader {
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  
+  #forcastCard {
+    height: 250px;
+    width: 160px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(2, 57, 109);
+  }
+  
+  h5 {
+    padding-left: 5px;
+    font-size: 40px;
+  }
+  
+  .btn {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    color: rgb(0, 25, 167);
+  }
+  
+  .photo1 {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .card-title1,
+  .card-title2,
+  .card-title3,
+  .card-title4,
+  .card-title5 {
+    font-size: 20px;
+  }
+  
+  .date {
+    font-size: 40px;
+  }
+  
