@@ -1,0 +1,17 @@
+header{
+    background-color: purple;
+    font-size: 50px;
+}
+
+
+.flex{
+    display: flex;
+    background-color: aqua;
+}
+
+.flex > div {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
